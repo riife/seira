@@ -1,0 +1,65 @@
+/*
+* タイトルへ戻る際のモーダル
+*/
+.remodal {
+  border-radius: 4px;
+  max-width: 640px;
+}
+
+.remodal_title {
+  color: #8a8da3;
+  font-weight: bold;
+}
+
+.remodal-cancel,
+.remodal-confirm {
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.remodal-cancel {
+  background-color: #a7a5d6;
+  margin-right: 20px;
+  transition: opacity 0.2s;
+}
+
+.remodal-cancel:hover {
+  background-color: #a7a5d6;
+  opacity: 0.8;
+}
+
+.remodal-confirm {
+  background-color: #e0a4b8;
+}
+
+.remodal-confirm:hover {
+  background-color: #e0a4b8;
+  opacity: 0.8;
+}
+
+.current_span {
+  font-weight: 500;
+  line-height: 1.1;
+  text-shadow: 0 0 5px #5d565b, 0 0 4px #5d565b, 0 0 3px black, 0 0 2px black;
+}
+
+.chara_name_area {
+  font-weight: 500;
+  text-shadow: 0 0 5px #5d565b, 0 0 4px #5d565b, 0 0 3px black, 0 0 2px black;
+}
+
+/* #forlive {
+  color: white;
+  font-size: 12px;
+  height: 20px;
+  left: 1200px;
+  position: absolute;
+  top: 80px;
+  width: 80px;
+}
+
+#forlive.is-hidden {
+  left: 1500px;
+} */

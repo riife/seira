@@ -1,0 +1,39 @@
+/*
+* バックログ画面
+*/
+
+#seiraBacklog__buttonBack {
+  background-image: url('./images/button/back.png');
+  cursor: pointer;
+  height: 112px;
+  left: 1146px;
+  position: absolute;
+  top: 20px;
+  width: 114px;
+}
+
+#seiraBacklog__buttonBack:hover {
+  background-image: url('./images/button/back_hover.png');
+}
+
+#seiraBacklog__logBody {
+	background-color: transparent;
+	border: none;
+	color: #8e7b86;
+	font-size: 24px;
+	margin-top: 170px;
+}
+
+#seiraBacklog__logBody::-webkit-scrollbar {
+	width: 16px;
+}
+
+#seiraBacklog__logBody::-webkit-scrollbar-thumb {
+	border-radius: none;
+	background: #8e7b86;
+}
+
+#seiraBacklog__logBody::-webkit-scrollbar-track {
+	border-radius: none;
+	background: rgba(255, 255, 255, 0.1);
+}
